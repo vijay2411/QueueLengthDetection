@@ -8,9 +8,7 @@ To compile and run:
 
 4. ./cod.o cod_vid.avi
 
-In the last line cod_vid.avi is video name. To run any other video than cod_vid.avi use command "./cod.o [video_name] 1" to run.
-
-Recommended to check and verify on cod_vid.avi first.
+In the last line cod_vid.avi is video name.
 
 Results will be available in results.txt as-> loop_number:percentage_white_area,y_coordinate
 
