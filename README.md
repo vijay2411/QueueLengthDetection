@@ -1,9 +1,9 @@
-**What does it do?
+What does it do?
 
 We have built a simple queue length detector which works on the idea of background subtraction. It detects a red/green light and update background accordingly. We detect vehicles by background subtraction and homography and are able to identify queue length with good accuracy in daytime traffic videos.
 
 
-**Commands to compile & run the code with GPU:
+Commands to compile & run the code with GPU:
     
     nvcc -c CudaFunc.cu -o cfo.o
     g++ -c code_cod2.cpp -o ccd.o pkg-config --cflags --libs opencv
@@ -11,8 +11,8 @@ We have built a simple queue length detector which works on the idea of backgrou
     ./cod.o __1__  __2__  __3__  __4__  __5__
     
    Arguments:
-   __1__ is the video name
    
+   __1__is the video name
    __2 __  is whether or not you have to set four values to configure the projection thing (this must be set to true only when you run a particular video for the first time,next time you run the same video you may set it to false )
    
    __3 __  is whether or not GPU is on
@@ -22,7 +22,7 @@ We have built a simple queue length detector which works on the idea of backgrou
    __5 __  is whether you want data to acquire as soon as it is processed or wait for whole one second
 
 
-**Commands to compile & run the code without GPU:
+Commands to compile & run the code without GPU:
 
 (After commenting few lines in the code{mentioned in code itself})
 
@@ -30,7 +30,7 @@ We have built a simple queue length detector which works on the idea of backgrou
     ./cod.o __1__  __2__  __3__  __4__  __5__
     
     
-**What can/needs to be set?
+What can/needs to be set?
 
 Following are the parameters that needs to be fit as per requirements of video.
 
@@ -48,7 +48,7 @@ Following are the parameters that needs to be fit as per requirements of video.
 
 
 
-**Results /Output
+Results /Output
 
 1.) Results will be available in results_InputFileName_.txt as-> loop_number: percentage_white_area , ratio_from_top
 
