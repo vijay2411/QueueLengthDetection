@@ -14,7 +14,7 @@ Commands to compile & run the code with GPU:
    
    __1__is the video name
    
-   __2 __  is whether or not you have to set four values to configure the projection thing (this must be set to true only when you run a particular video for the first time,next time you run the same video you may set it to false )
+   __2 __  is whether or not you have to set four values to configure the projection thing (this must be set to true only when you run a particular video for the first time,next time you run the same video you may set it to false --please read below)
    
        If this is set to true, you must do following things manually:
        You must select 4 points(by clicking using mouse) in the frame that appears when you run the code, the polygon formed by joining these points is the portion of the road that we consider for projecting.
