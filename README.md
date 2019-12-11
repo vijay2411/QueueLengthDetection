@@ -13,6 +13,7 @@ Commands to compile & run the code with GPU:
    Arguments:
    
    __1__is the video name
+   
    __2 __  is whether or not you have to set four values to configure the projection thing (this must be set to true only when you run a particular video for the first time,next time you run the same video you may set it to false )
    
    __3 __  is whether or not GPU is on
