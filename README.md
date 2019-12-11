@@ -1,5 +1,4 @@
 What does it do?
-
 We have built a simple queue length detector which works on the idea of background subtraction. It detects a red/green light and update background accordingly. We detect vehicles by background subtraction and homography and are able to identify queue length with good accuracy in daytime traffic videos.
 
 
@@ -27,19 +26,20 @@ What can/needs to be set?
 
 Following are the parameters that needs to be fit as per requirements of video.
 
-1.XFIT //Number of vehicles that would fit in horizontal, now lets us suppose we can fit 3 cars so we may want to have XFIT atleast 3 but since we can also have bikes we can make it 4 or 5 or 6 
+1. XFIT //Number of vehicles that would fit in horizontal, now lets us suppose we can fit 3 cars so we may want to have XFIT atleast 3 but since we can also have bikes we can make it 4 or 5 or 6 
 
-2.YFIT //Similar explanation but since bikes and cars have similar length, this is not a problem
+2. YFIT //Similar explanation but since bikes and cars have similar length, this is not a problem
 
-3.DYNAMIC_TIME //Time within which a frame would completely disappear from average, we may want to keep it small so that slow vehicles or stopped vehicles disappear quickly in seconds or FrameUnits
+3. DYNAMIC_TIME //Time within which a frame would completely disappear from average, we may want to keep it small so that slow vehicles or stopped vehicles disappear quickly in seconds or FrameUnits
 
-4.STATIC_TIME //in seconds or FRAMEUNITS
+4. STATIC_TIME //in seconds or FRAMEUNITS
 
-5.VARIANCE_FROM_AVG //variance from avg pixel, the variance from average pixel when it is considered an anomaly; be careful, should be between 10 to 40
+5. VARIANCE_FROM_AVG //variance from avg pixel, the variance from average pixel when it is considered an anomaly; be careful, should be between 10 to 40
 
-6.arguments of find_line inside isRED_() function
+6. Arguments of find_line inside isRED_() function
 
 Results /Output
+
 *Results will be available in results_InputFileName_.txt as-> loop_number: percentage_white_area , ratio_from_top
 
 *If loop_number is "n" this means that it is the report of queue length for nth "FRAMEUNIT frames"/ Second. FRAMEUNIT is same as Fps but can be changed.
