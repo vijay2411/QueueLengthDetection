@@ -16,7 +16,8 @@ Commands to compile & run the code with GPU:
     __5 __  is whether you want data to acquire as soon as it is processed or wait for whole one second
 
 Commands to compile & run the code without GPU:
-    (After commenting few lines in the code{mentioned in code itself})
+(After commenting few lines in the code{mentioned in code itself})
+
     g++ code_cod2.cpp -o cod.o pkg-config --cflags --libs opencv
     ./cod.o __1__  __2__  __3__  __4__  __5__
     
