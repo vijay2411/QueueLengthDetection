@@ -1,4 +1,5 @@
 What does it do?
+
 We have built a simple queue length detector which works on the idea of background subtraction. It detects a red/green light and update background accordingly. We detect vehicles by background subtraction and homography and are able to identify queue length with good accuracy in daytime traffic videos.
 
 
