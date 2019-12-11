@@ -16,19 +16,13 @@ Commands to compile & run the code with GPU:
    
    __2 __  is whether or not you have to set four values to configure the projection thing (this must be set to true only when you run a particular video for the first time,next time you run the same video you may set it to false )
    
-   If this is set to true, you must do following things manually:
-   
-   You must select 4 points(by clicking using mouse) in the frame that appears when you run the code, the polygon formed by joining these points is the portion of the road that we consider for projecting.
-   
-   Then press "Esc" key.
-   
-   Next again select 4 points(by clicking using mouse) from the next frame that appears the polygon formed by joining these points is the portion of the projection that we consider in queue length detection.
-   
-   Then press "Esc" key.
-   
-   Each time the points should be selected in the order: Top-Left, Bottom-Left, Bottom-Right, Top-Right.
-   
-   If this is set to false, nothing needs to be done manually.
+       If this is set to true, you must do following things manually:
+       You must select 4 points(by clicking using mouse) in the frame that appears when you run the code, the polygon formed by joining these points is the portion of the road that we consider for projecting.
+       Then press "Esc" key.
+       Next again select 4 points(by clicking using mouse) from the next frame that appears the polygon formed by joining these points is the portion of the projection that we consider in queue length detection.
+       Then press "Esc" key.
+       Each time the points should be selected in the order: Top-Left, Bottom-Left, Bottom-Right, Top-Right.
+       If this is set to false, nothing needs to be done manually.
    
    __3 __  is whether or not GPU is on
    
