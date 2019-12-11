@@ -51,15 +51,15 @@ Following are the parameters that needs to be fit as per requirements of video.
 
 Results /Output
 
-1.) Results will be available in results_InputFileName_.txt as-> loop_number: percentage_white_area , ratio_from_top
+1.)  Results will be available in results_InputFileName_.txt as-> loop_number: percentage_white_area , ratio_from_top
 
-2.) If loop_number is "n" this means that it is the report of queue length for nth "FRAMEUNIT frames"/ Second. FRAMEUNIT is same as Fps but can be changed.
+2.)  If loop_number is "n" this means that it is the report of queue length for nth "FRAMEUNIT frames"/ Second. FRAMEUNIT is same as Fps but can be changed.
 
-3.) ratio_from_top is the ratio of the queue length from the top of the frame to the road length in PROJECTED_FRAME. Small ratio_from_top means large queues/ last vehicle at far end.
+3.)  ratio_from_top is the ratio of the queue length from the top of the frame to the road length in PROJECTED_FRAME. Small ratio_from_top means large queues/ last vehicle at far end.
 
 
 
-**Additional Help Required?
+Additional Help Required?
 
 Ask a question in ISSUES, we'll answer.
 
