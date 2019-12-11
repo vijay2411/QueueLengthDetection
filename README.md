@@ -49,7 +49,7 @@ Following are the parameters that needs to be fit as per requirements of video.
 
 
 
-Results /Output
+__Results /Output
 
     1. Results will be available in results_InputFileName_.txt as-> loop_number: percentage_white_area , ratio_from_top
 
