@@ -10,10 +10,14 @@ Commands to compile & run the code with GPU:
     ./cod.o __1__  __2__  __3__  __4__  __5__
     
    __1__  is the video name
+   
    __2 __  is whether or not you have to set four values to configure the projection thing (this must be set to true only when you run a particular video for the first time,next time you run the same video you may set it to false )
+   
    __3 __  is whether or not GPU is on
-    __4 __  is if you want to limit the fps
-    __5 __  is whether you want data to acquire as soon as it is processed or wait for whole one second
+   
+   __4 __  is if you want to limit the fps
+    
+   __5 __  is whether you want data to acquire as soon as it is processed or wait for whole one second
 
 Commands to compile & run the code without GPU:
 (After commenting few lines in the code{mentioned in code itself})
